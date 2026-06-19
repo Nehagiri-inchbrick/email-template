@@ -70,6 +70,7 @@
 
     /* Mobile styles */
     @media screen and (max-width: 600px) {
+      .email-container,
       .wrapper {
         width: 100% !important;
         max-width: 100% !important;
@@ -80,13 +81,269 @@
         width: 100% !important;
         max-width: 100% !important;
         direction: ltr !important;
+        text-align: center !important;
+      }
+
+      .stack img {
+        margin: 0 auto !important;
+      }
+
+      .stack table {
+        margin: 0 auto !important;
+      }
+
+      .stack td {
+        text-align: center !important;
       }
 
       .pad {
-        padding: 20px !important;
+        padding: 16px !important;
+      }
+
+      .pad-sm {
+        padding: 12px !important;
+      }
+
+      .pad-header {
+        padding: 10px 16px 0 !important;
+      }
+
+      .header-row .header-logo {
+        display: table-cell !important;
+        width: 50% !important;
+        max-width: 50% !important;
+        text-align: left !important;
+        vertical-align: middle !important;
+      }
+
+      .header-row .header-reminder {
+        display: table-cell !important;
+        width: 50% !important;
+        max-width: 50% !important;
+        text-align: right !important;
+        vertical-align: middle !important;
+      }
+
+      .header-row .header-logo img,
+      .header-logo .logo-img {
+        margin: 0 !important;
+        width: 120px !important;
+        max-width: 100% !important;
+        height: auto !important;
+      }
+
+      .header-row .header-reminder table {
+        margin: 0 0 0 auto !important;
+      }
+
+      .header-row .header-reminder td {
+        text-align: right !important;
+        padding: 6px 0 6px 8px !important;
+      }
+
+      .reminder-label {
+        font-size: 10px !important;
+        line-height: 14px !important;
+        letter-spacing: 1px !important;
+      }
+
+      .reminder-date {
+        font-size: 13px !important;
+        line-height: 18px !important;
+        padding-top: 4px !important;
+      }
+
+      .logo-img {
+        width: 140px !important;
+        max-width: 80% !important;
+        height: auto !important;
       }
 
       .center {
+        text-align: center !important;
+      }
+
+      .hero-title {
+        font-size: 24px !important;
+        line-height: 32px !important;
+        text-align: center !important;
+      }
+
+      .hero-greeting {
+        font-size: 15px !important;
+        line-height: 24px !important;
+        text-align: center !important;
+      }
+
+      .hero-percent {
+        font-size: 64px !important;
+        line-height: 64px !important;
+        display: block !important;
+        text-align: center !important;
+        padding-bottom: 8px !important;
+      }
+
+      .hero-plan-cell {
+        border-left: none !important;
+        border-top: 1px solid #B8954A !important;
+        padding-left: 0 !important;
+        padding-top: 14px !important;
+        text-align: center !important;
+      }
+
+      .hero-plan {
+        font-size: 22px !important;
+        line-height: 26px !important;
+        letter-spacing: 3px !important;
+      }
+
+      .offer-inner {
+        padding: 24px 16px !important;
+      }
+
+      .section-heading {
+        font-size: 22px !important;
+        line-height: 30px !important;
+      }
+
+      .section-title-card {
+        background-image: none !important;
+        background-color: #ffffff !important;
+      }
+
+      .section-present-label {
+        padding-top: 0 !important;
+      }
+
+      .section-subtitle {
+        font-size: 18px !important;
+        line-height: 26px !important;
+      }
+
+      .collab-badge {
+        font-size: 11px !important;
+        line-height: 16px !important;
+        padding: 8px 16px !important;
+        letter-spacing: 1px !important;
+      }
+
+      .location-row .location-text {
+        font-size: 14px !important;
+        line-height: 22px !important;
+        text-align: center !important;
+      }
+
+      .location-date {
+        font-size: 15px !important;
+        display: block !important;
+        padding-bottom: 4px !important;
+      }
+
+      .location-time {
+        display: block !important;
+        padding-bottom: 6px !important;
+      }
+
+      .stats-grid tr {
+        display: block !important;
+        width: 100% !important;
+      }
+
+      .stat-cell {
+        display: block !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        padding: 0 0 10px 0 !important;
+      }
+
+      .property-grid tr {
+        display: block !important;
+        width: 100% !important;
+      }
+
+      .grid-cell {
+        display: block !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        padding: 6px 0 !important;
+      }
+
+      .fluid-img {
+        width: 100% !important;
+        max-width: 100% !important;
+        height: auto !important;
+        min-height: 200px !important;
+        object-fit: cover !important;
+      }
+
+      .highlights-header {
+        padding: 16px !important;
+      }
+
+      .highlights-title {
+        font-size: 18px !important;
+        line-height: 26px !important;
+      }
+
+      .highlights-body {
+        padding: 16px 12px 8px !important;
+      }
+
+      .highlight-text {
+        font-size: 14px !important;
+        line-height: 20px !important;
+      }
+
+      .body-text {
+        font-size: 15px !important;
+        line-height: 24px !important;
+      }
+
+      .cta-box {
+        padding: 20px 16px !important;
+      }
+
+      .cta-title {
+        font-size: 18px !important;
+        line-height: 26px !important;
+      }
+
+      .cta-btn a {
+        display: block !important;
+        width: 100% !important;
+        box-sizing: border-box !important;
+        padding: 14px 20px !important;
+        font-size: 15px !important;
+        text-align: center !important;
+      }
+
+      .footer-spacer {
+        display: none !important;
+        width: 0 !important;
+        height: 0 !important;
+        font-size: 0 !important;
+        line-height: 0 !important;
+      }
+
+      .footer-office {
+        display: block !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        padding-bottom: 20px !important;
+        text-align: center !important;
+      }
+
+      .footer-office table {
+        margin: 0 auto !important;
+      }
+
+      .footer-links {
+        font-size: 11px !important;
+        line-height: 18px !important;
+        text-align: center !important;
+      }
+
+      .footer-copy {
         text-align: center !important;
       }
     }
@@ -97,7 +354,7 @@
   <center style="width: 100%; background-color: #f1f1f1;">
     <div
       style="display: none; font-size: 1px;max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden; mso-hide: all; font-family: sans-serif;">
-      Inch & Brick Presents: Grand India Property Expo in Lagos. VIP Slots Filling Fast!
+      Inch & Brick Presents: Grand India Property Expo in Dubai. VIP Slots Filling Fast!
     </div>
     <div style="max-width: 680px; margin: 0 auto;" class="email-container">
       <table cellpadding="0" cellspacing="0" border="0" width="100%" bgcolor="#ffffff" role="presentation">
@@ -133,31 +390,31 @@
                           <table cellspacing="0" cellpadding="0" border="0" width="100%" role="presentation">
                             <tbody>
                               <tr>
-                                <td style="padding:10px 32px 0;" class="pad">
+                                <td style="padding:10px 32px 0;" class="pad pad-header">
                                   <table cellspacing="0" cellpadding="0" border="0" width="100%" role="presentation">
                                     <tbody>
-                                      <tr>
-                                        <td align="left" valign="middle" class="stack" style="width:55%;">
+                                      <tr class="header-row">
+                                        <td align="left" valign="middle" class="header-logo" style="width:55%;">
                                           <img src="https://cdn.inchbrick.com/common/logo.png" width="160" height="42"
-                                            alt="Inch &amp; Brick Realty"
-                                            style="width:160px;height:auto;display:block;">
+                                            alt="Inch &amp; Brick Realty" class="logo-img"
+                                            style="width:160px;max-width:100%;height:auto;display:block;">
                                         </td>
-                                        <td align="right" valign="middle" class="stack" style="width:45%;">
+                                        <td align="right" valign="middle" class="header-reminder" style="width:45%;">
                                           <table cellspacing="0" cellpadding="0" border="0" align="right"
                                             role="presentation">
                                             <tbody>
                                               <tr>
                                                 <td
                                                   style="padding:12px 16px;font-family:Arial,Helvetica,Verdana,sans-serif;text-align:right;">
-                                                  <div
+                                                  <div class="reminder-label"
                                                     style="font-size:11px;line-height:16px;color:#B8954A;font-weight:bold;letter-spacing:1.5px;text-transform:uppercase;">
                                                     <span
                                                       style="font-size:14px;line-height:16px;padding-right:4px;">🔔</span>
                                                     Reminder
                                                   </div>
-                                                  <div
+                                                  <div class="reminder-date"
                                                     style="padding-top:6px;color:#ffffff;font-size:16px;line-height:22px;font-weight:bold;">
-                                                    06-07 June, 2026</div>
+                                                    27th &amp; 28th June, 2026</div>
                                                 </td>
                                               </tr>
                                             </tbody>
@@ -182,7 +439,7 @@
                                     style=" margin-top:1rem; border-radius:12px; overflow:hidden;">
                                     <tbody>
                                       <tr>
-                                        <td align="center" style="padding:32px 24px;">
+                                        <td align="center" style="padding:32px 24px;" class="offer-inner">
 
                                           <!-- Design-based Offer Badge (Symbolic) -->
                                           <table cellspacing="0" cellpadding="0" border="0" align="center"
@@ -230,15 +487,15 @@
                                             role="presentation">
                                             <tbody>
                                               <tr>
-                                                <td valign="middle"
+                                                <td valign="middle" class="hero-percent stack"
                                                   style="font-family:'Times New Roman', Times, serif; font-size:94px; line-height:80px; font-weight:bold; color:#ffffff;">
                                                   1%</td>
-                                                <td valign="middle"
+                                                <td valign="middle" class="hero-plan-cell stack"
                                                   style="padding-left:18px; border-left:1px solid #B8954A;">
-                                                  <div
+                                                  <div class="hero-plan"
                                                     style="font-family:Arial,sans-serif; font-size:28px; line-height:28px; font-weight:900; color:#B8954A; letter-spacing:5px; text-transform:uppercase;">
                                                     Payment</div>
-                                                  <div
+                                                  <div class="hero-plan"
                                                     style="font-family:Arial,sans-serif; font-size:28px; line-height:28px; font-weight:900; color:#B8954A; letter-spacing:5px; text-transform:uppercase; margin-top:4px;">
                                                     Plan</div>
                                                 </td>
@@ -264,13 +521,13 @@
                                 <td style="padding:0 32px 20px;" class="pad">
                                   <div class="hero-title"
                                     style="font-family:Arial,Helvetica,Verdana,sans-serif;font-size:32px;line-height:40px;font-weight:bold;color:#ffffff;text-align:left;padding-bottom:10px;">
-                                    Hi ##name##,
+                                    Hi #NAME#,
                                   </div>
-                                  <div
+                                  <div class="hero-greeting"
                                     style="font-family:Arial,Helvetica,Verdana,sans-serif;font-size:17px;line-height:28px;color:#ffffff;opacity:0.85;">
                                     This is a friendly reminder that the <b>Inch & Brick Realty India Property Expo</b>
                                     is
-                                    about to kick off in Lagos.
+                                    about to kick off at Sheraton Grand Hotel, Dubai.
                                   </div>
                                 </td>
                               </tr>
@@ -284,30 +541,23 @@
                       <!-- Section title -->
                       <tr>
                         <td style="padding:16px 48px 4px;" class="pad">
-                          <table cellspacing="0" cellpadding="0" border="0" width="100%" role="presentation"
+                          <table cellspacing="0" cellpadding="0" border="0" width="100%" role="presentation" class="section-title-card"
                             style="background-color:#ffffff; background-image: url('data:image/svg+xml,%3Csvg width=\'180\' height=\'180\' viewBox=\'0 0 180 180\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cg fill=\'none\' stroke=\'%23000000\' stroke-opacity=\'0.04\' stroke-width=\'0.8\'%3E%3Cpath d=\'M20 160V60h30V40h40v60h30v30h40v30H20zM160 160V80h-30V50H90v40H60V30H30v130h130z\'/%3E%3C/g%3E%3C/svg%3E'); background-repeat: repeat; border-radius:16px;">
                             <tbody>
                               <tr>
                                 <td
                                   style="padding:24px 28px 24px;font-family:Arial,Helvetica,Verdana,sans-serif;text-align:center;">
-                                  <!-- Building Vector Icon -->
-                                  <div align="center" style="padding-bottom: 12px;">
-                                    <img
-                                      src="data:image/svg+xml,%3Csvg width='120' height='60' viewBox='0 0 120 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23B8954A' fill-opacity='0.2'%3E%3Cpath d='M10 60V20h15V10h20v25h15V15h25v45h25V30h10v30H10z'/%3E%3Crect x='15' y='25' width='5' height='5'/%3E%3Crect x='15' y='35' width='5' height='5'/%3E%3Crect x='15' y='45' width='5' height='5'/%3E%3Crect x='30' y='15' width='5' height='5'/%3E%3Crect x='30' y='25' width='5' height='5'/%3E%3Crect x='30' y='35' width='5' height='5'/%3E%3Crect x='30' y='45' width='5' height='5'/%3E%3C/g%3E%3C/svg%3E"
-                                      width="120" style="display:block; border:0; width:120px; height:auto;"
-                                      alt="Architecture">
-                                  </div>
-                                  <div
+                                  <div class="section-present-label"
                                     style="font-size:12px;line-height:18px;color:#B8954A;font-weight:bold;letter-spacing:3px;text-transform:uppercase;padding-bottom:6px;">
                                     Inch &amp; Brick Presents
                                   </div>
-                                  <div
+                                  <div class="section-heading"
                                     style="font-size:28px;line-height:36px;font-weight:bold;color:#000000;padding-bottom:6px;">
                                     Grand India Property Expo
                                   </div>
-                                  <div
+                                  <div class="section-subtitle"
                                     style="font-size:22px;line-height:30px;font-weight:bold;color:#000000;padding-bottom:12px;">
-                                    in Lagos
+                                    in Dubai
                                   </div>
                                   <table cellspacing="0" cellpadding="0" border="0" align="center" role="presentation"
                                     style="margin:0 auto 12px;">
@@ -322,7 +572,7 @@
                                     style="margin:0 auto;">
                                     <tbody>
                                       <tr>
-                                        <td align="center"
+                                        <td align="center" class="collab-badge"
                                           style="background-color:#000000;border-radius:24px;padding:10px 22px;font-family:Arial,Helvetica,Verdana,sans-serif;font-size:12px;line-height:18px;color:#B8954A;font-weight:bold;letter-spacing:1.5px;text-transform:uppercase;">
                                           In Collaboration with <span style="color:#ffffff;">Godrej Properties</span>
                                         </td>
@@ -346,14 +596,11 @@
                                 <td style="padding:20px 24px;font-family:Arial,Helvetica,Verdana,sans-serif;">
                                   <table cellspacing="0" cellpadding="0" border="0" width="100%" role="presentation">
                                     <tbody>
-                                      <tr>
-                                        <td valign="middle" width="40"
-                                          style="font-size:28px;line-height:32px;color:#B8954A;">
-                                          📍</td>
-                                        <td valign="middle" style="font-size:16px;line-height:26px;color:#ffffff;">
-                                          <span style="font-weight:bold;font-size:17px;">June 6th &amp; 7th</span>
-                                          &nbsp;|&nbsp; <span style="font-weight:bold;">10:00 AM - 6:00 PM</span><br>
-                                          <span style="opacity:0.95;">Radisson Blu Hotel, Victoria Island, Lagos</span>
+                                      <tr class="location-row">
+                                        <td valign="middle" class="location-text" align="center" style="font-size:16px;line-height:26px;color:#ffffff;">
+                                          <span class="location-date" style="font-weight:bold;font-size:17px;">27th &amp; 28th June, 2026</span>
+                                          <span class="location-time" style="font-weight:bold;">10:00 AM - 6:00 PM</span><br>
+                                          <span style="opacity:0.95;">Sheraton Grand Hotel, Dubai</span>
                                         </td>
                                       </tr>
                                     </tbody>
@@ -370,7 +617,7 @@
                       <!-- Stats row -->
                       <tr>
                         <td style="padding:16px 48px 12px;" class="pad">
-                          <table cellspacing="0" cellpadding="0" border="0" width="100%" role="presentation">
+                          <table cellspacing="0" cellpadding="0" border="0" width="100%" role="presentation" class="stats-grid">
                             <tbody>
                               <tr>
                                 <td class="stat-cell" align="center" valign="top" width="33%" style="padding:0 6px;">
@@ -436,60 +683,69 @@
                       <!-- Property Showcase Grid (3x3) -->
                       <tr>
                         <td style="padding:0 48px 32px;" class="pad">
-                          <table cellspacing="0" cellpadding="0" border="0" width="100%" role="presentation">
+                          <table cellspacing="0" cellpadding="0" border="0" width="100%" role="presentation" class="property-grid">
                             <tbody>
                               <!-- Row 1 -->
                               <tr>
-                                <td width="33.33%" style="padding:4px;">
-                                  <img src="assets/1.jpg" width="180" height="180"
+                                <td width="33.33%" class="grid-cell" style="padding:4px;">
+                                  <img src="https://godrejpropertiesexpo.com/images/B21.avif" width="180" height="180"
+                                    class="fluid-img"
                                     style="display:block; width:100%; height:180px; object-fit:cover; border-radius:4px; border:1px solid #B8954A;"
-                                    alt="Project 1">
+                                    alt="Godrej B21">
                                 </td>
-                                <td width="33.33%" style="padding:4px;">
-                                  <img src="assets/2026-01-30.jpg" width="180" height="180"
+                                <td width="33.33%" class="grid-cell" style="padding:4px;">
+                                  <img src="https://godrejpropertiesexpo.com/images/2026-01-30.webp" width="180" height="180"
+                                    class="fluid-img"
                                     style="display:block; width:100%; height:180px; object-fit:cover; border-radius:4px; border:1px solid #B8954A;"
-                                    alt="Project 2">
+                                    alt="Godrej Bannerghatta Bangalore">
                                 </td>
-                                <td width="33.33%" style="padding:4px;">
-                                  <img src="assets/5436aa76-67c7-4e2d-afb8-8fe3a667a370.jpg" width="180" height="180"
+                                <td width="33.33%" class="grid-cell" style="padding:4px;">
+                                  <img src="https://godrejpropertiesexpo.com/images/5436aa76-67c7-4e2d-afb8-8fe3a667a370.webp" width="180" height="180"
+                                    class="fluid-img"
                                     style="display:block; width:100%; height:180px; object-fit:cover; border-radius:4px; border:1px solid #B8954A;"
-                                    alt="Project 3">
+                                    alt="Godrej Connaught One Delhi">
                                 </td>
                               </tr>
                               <!-- Row 2 -->
                               <tr>
-                                <td width="33.33%" style="padding:4px;">
-                                  <img src="assets/92e131ae-9b67-4c03-8253-2ea04174bbef.jpg" width="180" height="180"
+                                <td width="33.33%" class="grid-cell" style="padding:4px;">
+                                  <img src="https://godrejpropertiesexpo.com/images/92e131ae-9b67-4c03-8253-2ea04174bbef.webp" width="180" height="180"
+                                    class="fluid-img"
                                     style="display:block; width:100%; height:180px; object-fit:cover; border-radius:4px; border:1px solid #B8954A;"
-                                    alt="Project 4">
+                                    alt="Godrej Se7en Kolkata">
                                 </td>
-                                <td width="33.33%" style="padding:4px;">
-                                  <img src="assets/a40702e6-3019-4e58-86d9-a854eceb6590.jpg" width="180" height="180"
+                                <td width="33.33%" class="grid-cell" style="padding:4px;">
+                                  <img src="https://godrejpropertiesexpo.com/images/a40702e6-3019-4e58-86d9-a854eceb6590.webp" width="180" height="180"
+                                    class="fluid-img"
                                     style="display:block; width:100%; height:180px; object-fit:cover; border-radius:4px; border:1px solid #B8954A;"
-                                    alt="Project 5">
+                                    alt="Godrej Regal Pavilion Hyderabad">
                                 </td>
-                                <td width="33.33%" style="padding:4px;">
-                                  <img src="assets/luxe.jpg" width="180" height="180"
+                                <td width="33.33%" class="grid-cell" style="padding:4px;">
+                                  <img src="https://godrejpropertiesexpo.com/images/luxe.webp" width="180" height="180"
+                                    class="fluid-img"
                                     style="display:block; width:100%; height:180px; object-fit:cover; border-radius:4px; border:1px solid #B8954A;"
-                                    alt="Project 6">
+                                    alt="Godrej Samaris Gurgaon">
                                 </td>
                               </tr>
                               <!-- Row 3 -->
                               <tr>
-                                <td width="33.33%" style="padding:4px;">
-                                  <img src="assets/mumbai-banner.jpg" width="180" height="180"
+                                <td width="33.33%" class="grid-cell" style="padding:4px;">
+                                  <img src="https://godrejpropertiesexpo.com/images/mumbai-banner.webp" width="180" height="180"
+                                    class="fluid-img"
                                     style="display:block; width:100%; height:180px; object-fit:cover; border-radius:4px; border:1px solid #B8954A;"
-                                    alt="Project 7">
+                                    alt="Godrej Trilogy Mumbai">
                                 </td>
-                                <td width="33.33%" style="padding:4px;">
-                                  <img src="assets/noida.jpg" width="180" height="180"
+                                <td width="33.33%" class="grid-cell" style="padding:4px;">
+                                  <img src="https://godrejpropertiesexpo.com/images/noida.webp" width="180" height="180"
+                                    class="fluid-img"
                                     style="display:block; width:100%; height:180px; object-fit:cover; border-radius:4px; border:1px solid #B8954A;"
-                                    alt="Project 8">
+                                    alt="Godrej Golf Links Noida">
                                 </td>
-                                <td width="33.33%" style="padding:4px;">
-                                  <img src="assets/2.jpg" width="180" height="180"
+                                <td width="33.33%" class="grid-cell" style="padding:4px;">
+                                  <img src="https://godrejpropertiesexpo.com/images/rejuve.webp" width="180" height="180"
+                                    class="fluid-img"
                                     style="display:block; width:100%; height:180px; object-fit:cover; border-radius:4px; border:1px solid #B8954A;"
-                                    alt="Project 9">
+                                    alt="Godrej Rejuve Pune">
                                 </td>
                               </tr>
                             </tbody>
@@ -506,18 +762,18 @@
                             style="background-color:#ffffff;border-radius:16px;border:1px solid #E8E4DC;overflow:hidden;">
                             <tbody>
                               <tr>
-                                <td
+                                <td class="highlights-header"
                                   style="background-color:#000000;padding:20px 24px;font-family:Arial,Helvetica,Verdana,sans-serif;">
                                   <div
                                     style="font-size:12px;line-height:18px;color:#B8954A;font-weight:bold;letter-spacing:2px;text-transform:uppercase;">
                                     What Awaits You</div>
-                                  <div
+                                  <div class="highlights-title"
                                     style="font-size:22px;line-height:30px;font-weight:bold;color:#ffffff;padding-top:4px;">
                                     Expo Highlights</div>
                                 </td>
                               </tr>
                               <tr>
-                                <td style="padding:20px 20px 8px;">
+                                <td class="highlights-body" style="padding:20px 20px 8px;">
                                   <table cellspacing="0" cellpadding="0" border="0" width="100%" role="presentation"
                                     style="background-color:#ffffff; background-image: url('data:image/svg+xml,%3Csvg width=\'180\' height=\'180\' viewBox=\'0 0 180 180\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cg fill=\'none\' stroke=\'%23000000\' stroke-opacity=\'0.04\' stroke-width=\'0.8\'%3E%3Cpath d=\'M20 160V60h30V40h40v60h30v30h40v30H20zM160 160V80h-30V50H90v40H60V30H30v130h130z\'/%3E%3C/g%3E%3C/svg%3E'); background-repeat: repeat; border-radius:12px;">
                                     <tbody>
@@ -538,7 +794,7 @@
                                           <div
                                             style="font-size:11px;line-height:16px;color:#B8954A;font-weight:bold;text-transform:uppercase;letter-spacing:1px;">
                                             Pan-India Coverage</div>
-                                          <div
+                                          <div class="highlight-text"
                                             style="font-size:15px;line-height:22px;color:#000000;font-weight:bold;padding-top:2px;">
                                             Mumbai, Delhi NCR, Bangalore, Hyderabad, Pune &amp; 12+ cities</div>
                                         </td>
@@ -565,7 +821,7 @@
                                           <div
                                             style="font-size:11px;line-height:16px;color:#B8954A;font-weight:bold;text-transform:uppercase;letter-spacing:1px;">
                                             Property Types</div>
-                                          <div
+                                          <div class="highlight-text"
                                             style="font-size:15px;line-height:22px;color:#000000;font-weight:bold;padding-top:2px;">
                                             Residential | Commercial | Plots</div>
                                         </td>
@@ -592,7 +848,7 @@
                                           <div
                                             style="font-size:11px;line-height:16px;color:#B8954A;font-weight:bold;text-transform:uppercase;letter-spacing:1px;">
                                             Flexible Payments</div>
-                                          <div
+                                          <div class="highlight-text"
                                             style="font-size:15px;line-height:22px;color:#000000;font-weight:bold;padding-top:2px;">
                                             1% Payment Plan</div>
                                         </td>
@@ -619,7 +875,7 @@
                                           <div
                                             style="font-size:11px;line-height:16px;color:#B8954A;font-weight:bold;text-transform:uppercase;letter-spacing:1px;">
                                             Exclusive Deals</div>
-                                          <div
+                                          <div class="highlight-text"
                                             style="font-size:15px;line-height:22px;color:#000000;font-weight:bold;padding-top:2px;">
                                             Expo-Only Offers - Not Available Anywhere Else</div>
                                         </td>
@@ -646,9 +902,9 @@
                                           <div
                                             style="font-size:11px;line-height:16px;color:#B8954A;font-weight:bold;text-transform:uppercase;letter-spacing:1px;">
                                             Smart Investment</div>
-                                          <div
+                                          <div class="highlight-text"
                                             style="font-size:15px;line-height:22px;color:#000000;font-weight:bold;padding-top:2px;">
-                                            Security Against Naira Volatility</div>
+                                            Security Against Currency Volatility</div>
                                         </td>
                                       </tr>
                                     </tbody>
@@ -690,7 +946,7 @@
                       <!-- Body copy -->
                       <tr>
                         <td style="padding:16px 48px 8px;" class="pad">
-                          <div
+                          <div class="body-text"
                             style="font-family:Arial,Helvetica,Verdana,sans-serif;font-size:17px;line-height:28px;color:#000000;">
                             This is a rare opportunity to explore some of India's most sought-after investment
                             destinations
@@ -700,7 +956,7 @@
                       </tr>
                       <tr>
                         <td style="padding:8px 48px 16px;" class="pad">
-                          <div
+                          <div class="body-text"
                             style="font-family:Arial,Helvetica,Verdana,sans-serif;font-size:17px;line-height:28px;color:#000000;">
                             Your presence is eagerly awaited. We look forward to welcoming you.
                           </div>
@@ -714,19 +970,19 @@
                             style="background-color:#ffffff; background-image: url('data:image/svg+xml,%3Csvg width=\'180\' height=\'180\' viewBox=\'0 0 180 180\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cg fill=\'none\' stroke=\'%23000000\' stroke-opacity=\'0.04\' stroke-width=\'0.8\'%3E%3Cpath d=\'M20 160V60h30V40h40v60h30v30h40v30H20zM160 160V80h-30V50H90v40H60V30H30v130h130z\'/%3E%3C/g%3E%3C/svg%3E'); background-repeat: repeat; border-radius:16px;">
                             <tbody>
                               <tr>
-                                <td align="center"
+                                <td align="center" class="cta-box"
                                   style="padding:28px 24px;font-family:Arial,Helvetica,Verdana,sans-serif;">
                                   <div
                                     style="font-size:13px;line-height:18px;color:#B8954A;font-weight:bold;letter-spacing:2px;text-transform:uppercase;padding-bottom:10px;">
                                     Don't Miss Out</div>
-                                  <div
+                                  <div class="cta-title"
                                     style="font-size:20px;line-height:30px;font-weight:bold;color:#000000;padding-bottom:8px;">
                                     Last chance to book your slot!
                                   </div>
                                   <div style="font-size:15px;line-height:24px;color:#666666;padding-bottom:20px;">
                                     VIP slots are filling up fast. Secure your visit before they're gone.
                                   </div>
-                                  <table cellspacing="0" cellpadding="0" border="0" align="center" role="presentation">
+                                  <table cellspacing="0" cellpadding="0" border="0" align="center" role="presentation" class="cta-btn" width="100%">
                                     <tbody>
                                       <tr>
                                         <td align="center" style="background-color:#000000;border-radius:30px;">
@@ -769,7 +1025,7 @@
                                   <table cellspacing="0" cellpadding="0" border="0" width="100%" role="presentation">
                                     <tbody>
                                       <tr>
-                                        <td width="48%" class="stack" valign="top" style="padding-bottom: 20px;">
+                                        <td width="48%" class="stack footer-office" valign="top" style="padding-bottom: 20px;">
                                           <table cellspacing="0" cellpadding="0" border="0" role="presentation">
                                             <tbody>
                                               <tr>
@@ -788,8 +1044,8 @@
                                             101, Dwarka Sector 12,<br>New Delhi, India
                                           </div>
                                         </td>
-                                        <td width="4%">&nbsp;</td>
-                                        <td width="48%" class="stack" valign="top" style="padding-bottom: 20px;">
+                                        <td width="4%" class="footer-spacer">&nbsp;</td>
+                                        <td width="48%" class="stack footer-office" valign="top" style="padding-bottom: 20px;">
                                           <table cellspacing="0" cellpadding="0" border="0" role="presentation">
                                             <tbody>
                                               <tr>
@@ -818,13 +1074,13 @@
                                   <table cellspacing="0" cellpadding="0" border="0" width="100%" role="presentation">
                                     <tbody>
                                       <tr>
-                                        <td align="left"
+                                        <td align="left" class="footer-links"
                                           style="padding-bottom:10px; font-family:Arial,sans-serif; color:#B8954A; font-size:12px; font-weight:bold; letter-spacing:1px; text-transform:uppercase;">
                                           www.inchbrick.com &nbsp;&nbsp;|&nbsp;&nbsp; T&C Apply
                                         </td>
                                       </tr>
                                       <tr>
-                                        <td align="left">
+                                        <td align="left" class="footer-copy">
                                           <div
                                             style="font-family:Arial,sans-serif; font-size:11px; line-height:16px; color:#ffffff; opacity:0.5;">
                                             &copy; 2026 Inch & Brick Realty. All rights reserved. This email was sent to
